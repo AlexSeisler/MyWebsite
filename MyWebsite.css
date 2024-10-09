@@ -1,0 +1,545 @@
+html{
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif ;
+    font-size:20px;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0,0,0,0.7)), url(../images/Thad.jfif);
+    background-size:cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.row{
+    max-width: 1140;
+    margin: 0 auto;
+    display:flex;
+}
+.hero-text-box{
+    width:1140px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color:white;
+    font-size: 200%;
+    font-weight:100;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+.nav-bar{
+}
+.navigation{
+    color: white;
+    text-transform:uppercase;
+    list-style-type:none;
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    left:50%;
+    top:35px;
+}
+li{
+    padding-left:20px;
+    padding-right:20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    border-bottom: rgba(0,0,0,0);
+}
+a:hover{
+    border-bottom:orange solid 3px;
+}
+#but:hover{
+    border-bottom:orange solid 3px;
+    background-color:#cf6d17;
+}
+ul{
+    list-style-type: none;
+    border-bottom-color:transparent;
+}
+.btn{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+}
+.btn-full{
+    background-color:#e67e22;
+    border: 1px solid #e67e22;
+    color:#fff;
+}
+.btn-ghost{
+    border: 1px solid;
+    color:#e67e22;
+    transition: color 0.2s;
+}
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active{
+    border: 1px solid #cf6d17;
+    color:#fff;
+}
+.logo{
+    height:100px;
+    position:absolute;
+    top:35px;
+    left:15%;
+    width:auto;
+    float:left;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body{
+    font-family:'Lato';
+}
+h2:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:30px;
+}
+#top{
+    width:700px;
+}
+h2{
+    font-size:30px;
+}
+.image{
+    width:100%;
+    height:100%;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+    
+    
+    
+}
+.Cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+.Card{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    
+}
+.icon-big{
+    font-size:350%;
+    display:block;
+    color:orange;
+    margin-bottom:10px;
+    --ionicon-stroke-width:20px;
+}
+.items{
+    display:flex;
+    flex-wrap: wrap;
+}
+.image{
+    height:300px;
+    width:100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    overflow:hidden;
+    background-color: #000;
+    transition: transform 0.5s, opacity 0.5s;
+    object-fit: cover;
+    overflow:hidden;
+}
+.image:hover{
+    opacity:1;
+    transform: scale(1);
+    overflow:none;
+}
+#meals{
+    padding:0;
+    margin:0;
+    display:flex;
+    position:relative;
+    right:40%;
+    top:40px;
+    font-size: 30px;
+    color:orangered;
+    font-weight:bolder;
+}
+.over{
+    height:25%;
+    width:25%;
+    display:flex;
+    overflow: hidden;
+}
+
+.sets{
+    height:50px;
+    width:auto;
+}
+.hyper{
+    display:flex;
+    gap:15px;
+    padding-top:75px;
+}
+.list2{
+    display:flex;
+    gap:25px;
+    align-items: center;
+    width:600px;
+}
+.number{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:orange solid 2px;
+    height:60px;
+    width:60px;
+    border-radius:60px;
+    color:orange;
+    font-size:25px;
+}
+.text5{
+    color:grey;
+    font-family:'Lato';
+    font-size:25px;
+}
+#phone{
+    width:25%;
+    height:auto;
+}
+.content{
+    display:flex;
+    gap:75px;
+    align-items: center;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header7{
+    font-family:'Lato';
+    font-weight:20;
+    font-size:30px;
+    color:darkgrey;
+}
+
+#header7:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.description{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    font-family:'Lato';
+    font-size:18px;
+    color:darkgrey;
+}
+.places{
+    width:auto;
+    height:130px;
+
+}
+.item6{
+    display:flex;
+    flex-direction: column;
+    line-height: 0px;
+    max-width: 20%;
+    overflow:hidden;
+    color:darkgray;
+    font-family:'Lato';
+    
+    
+}
+.City{
+    font-weight: 20;
+}
+.Cities{
+    font-weight: 100;
+}
+ion-icon{
+    font-size:100%;
+    display:block;
+    color:orange;
+    margin-bottom:10px;
+    --ionicon-stroke-width:20px;
+}
+.items3{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lato';
+    font-weight:20;
+    font-size:30px;
+    color:darkgrey;
+}
+.page1{
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+    
+}
+.tag{
+    color:orange;
+}
+
+.page3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('images/Omnifood Contents/back-customers.jpg');
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    height:650px;
+}
+.header1{
+    color:ghostwhite;
+    font-weight:10;
+    font-family:"Lato";
+    font-size:40px;
+}
+.header1:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:60px;
+}
+.test3{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    width:500px;
+    color:ghostwhite;
+    font-size: 25px;
+    font-family:"Lato";
+    font-weight:10;
+    text-align: left;
+}
+.testimonials{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+}
+.profile3{
+    display:flex;
+    gap:10px;
+
+}
+.pic{
+    height:60px;
+    width:auto;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerText{
+    padding:0px;
+    margin:0px;
+}
+.innerText:before{
+    content: "\201C";
+    font-size:500%;
+    display:block;
+    line-height:5px;
+}
+.header2{
+    color:black;
+    font-family: "Lato";
+    font-weight:200;
+    font-size:35px;
+    text-align: center;
+}
+.header2:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+}
+.prices{
+    display:flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    padding:30px;
+    
+}
+.optionsD{
+    display:flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+    gap:75px;
+    
+}
+.option8{
+    background-color:white;
+    padding:20px;
+    width:400px;
+    height:430px;
+    box-shadow:0 2px 2x #cac5c5;
+    
+}
+.spot5{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.unlock{
+    display:flex;
+    flex-direction: column;
+}
+.case7{
+    font-size:28px;
+    font-weight:200;
+    font-family:"Lato";
+    display:flex;
+    align-items: center;
+    gap:15px;
+    
+}
+.price{
+    font-size:250%;
+    font-weight:100;
+    margin:0px;
+    font-family: "Lato";
+    color:orange;
+}
+.month{
+    font-size:100%;
+    font-weight:300;
+    color:orange;
+}
+.chance1{
+    font-size:80%;
+    margin:10px;
+    
+}
+.title5{
+    font-size:25px;
+    font-weight:200;
+    font-family: "Lato";
+    margin:15px;
+}
+.signUp{
+    height:40px;
+    width:180px;
+    border-radius:20px;
+    outline:orange solid 2px;
+    border:none;
+    font-size:20px;
+    font-family:"Lato";
+    font-weight:100;
+    color:orange;
+    background-color:white;
+}
+.signUp:hover{
+    background-color: orange;
+    color:white;
+}
+.but{
+    text-align: center;
+}
+ion-icon{
+    color:orange;
+    font-size:30px;
+    display:flex;
+}
+#space{
+    font-size:23px;
+}
+
+
+@media (max-width: 768px) {
+    /* Responsive Navigation */
+    .navigation {
+        left: 0;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .navigation li {
+        padding: 0 10px;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 8px 20px;
+    }
+
+    /* Hero Text Box */
+    .hero-text-box {
+        width: 90%;
+    }
+
+    /* Pricing Cards */
+    .optionsD {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .option8 {
+        width: 100%;
+    }
+
+    .test3 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .optionsD {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
